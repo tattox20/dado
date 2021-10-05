@@ -8,24 +8,19 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<table border="0" width="100%">
-	<tr>
-		<td><h1>Simulación Dados</h1></td>
-		<td>
-			<p>Alejandro Ariza</p>
-			<p>Oscar Medina</p>
-			<p>Julián López</p>
-		</td>
-	</tr>
-</table>
+	<table border="1" width="100%" >
+		<tr><td>
+		<h1>Simulación Dados</h1>
+			<p>Alejandro Ariza<br>
+			Oscar Medina<br>
+			Julián López</p>
 <form name="datos">
-	Número de lanzamientos:
+	Número de lanzamientos:<br>
 	<input type="text" name="n" size=20 >
 	<input type="button" value="Lanzar" id="button" OnClick="computar()">
 	<br><br>
-	<table>
-  		<tr><td cellspacing:40%>
-	<table border="1" width="100%">
+	</td><td>
+	<table border="1" width="100%" >
 		<tr>
 			<td>Resultado</td>
 			<td>Frecuencia Absoluta</td>
@@ -69,12 +64,10 @@
             <td id="6_3"><input type="text" readonly size=20></td>
 		</tr>
 	</table>
-			</td><td cellspacing: 60%>	
-			
 </form>
+	</td></tr></table>
 	<br>
 	<canvas id="oilChart" width="200" height="50"></canvas>
-		</td></table>
 	<footer>
 		<p>Universitaria de Colombia - Sistemas Dinámicos y Simulación </p>
 		<img src="uni.png" width="10%" height="10%">
@@ -84,3 +77,4 @@
 <script src="script.js"></script>
 
 </html>
+
