@@ -1,5 +1,4 @@
-       function computar(){   
-
+function computar(){   
         var tirada; 
         f=[0,0,0,0,0,0,0] ;
         n=parseInt(document.datos.n.value) ;
@@ -21,16 +20,11 @@
         }
 
     canvas();
-    
-
 }
-
-
 
 function canvas(){
 
 var canvas = document.getElementById("oilChart");
-
 var ctxGrupo = canvas.getContext("2d");
 
 var Data = {
@@ -43,7 +37,8 @@ var Data = {
         "Seis"
     ],
     datasets: [
-        {
+        {     
+            label: 'Grafico de Frecuencias',
             data: [f[1],f[2],f[3],f[4],f[5],f[6]],
             backgroundColor: [
                 "red",
