@@ -1,13 +1,10 @@
 #grafica{
-    max-width: 50px;
+    max-width: 40px;
 }
 
 body{
   background-color: #96C8CD;
   margin: 1rem;
-  padding: 1rem;
-  border: 2px solid #ccc;
-  /* IMPORTANTE */
   text-align: center;
 }
 
