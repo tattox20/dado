@@ -1,0 +1,49 @@
+#grafica{
+    max-width: 50px;
+}
+
+body{
+  background-color: #96C8CD;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+#dado1{
+    background-color: red;
+}
+#dado2{
+    background-color: blue;
+}
+#dado3{
+    background-color: green;
+}
+#dado4{
+    background-color: yellow;
+}
+#dado5{
+    background-color: purple;
+}
+#dado6{
+    background-color: orange;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+  }
+
+#button, button{
+    background-color: red;
+    width: 250px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

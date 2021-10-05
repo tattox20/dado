@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dados</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Simulación Dados</h1>
+	<p>Alejandro Ariza</p>
+	<p>Oscar Medina</p>
+	<p>Julián López</p>
+<form name="datos">
+
+	Número de lanzamientos:
+	<input type="text" name="n" size=20 >
+	<input type="button" value="Lanzar" id="button" OnClick="computar()">
+	<br><br>
+	<table border="1" width="100%">
+		<tr>
+			<td>Resultado</td>
+			<td>Frecuencia Absoluta</td>
+			<td>Frecuencia Acumulada</td>
+			<td>Frecuencia Relativa</td>
+		</tr>
+		<tr>
+            <td id="dado1" >Dado 1</td>
+            <td id="1_1"><input type="text" readonly size=20></td>
+            <td id="1_2"><input type="text" readonly size=20></td>
+            <td id="1_3"><input type="text" readonly size=20></td>
+        </tr>
+        <tr>
+            <td id="dado2" >Dado 2</td>
+            <td id="2_1"><input type="text" readonly size=20></td>
+            <td id="2_2"><input type="text" readonly size=20></td>
+            <td id="2_3"><input type="text" readonly size=20></td>
+        </tr>
+        <tr>
+            <td id="dado3" >Dado 3</td>
+            <td id="3_1"><input type="text" readonly size=20></td>
+            <td id="3_2"><input type="text" readonly size=20></td>
+            <td id="3_3"><input type="text" readonly size=20></td>
+        </tr>
+        <tr>
+            <td id="dado4" >Dado 4</td>
+            <td id="4_1"><input type="text" readonly size=20></td>
+            <td id="4_2"><input type="text" readonly size=20></td>
+            <td id="4_3"><input type="text" readonly size=20></td>
+        </tr>
+        <tr>
+            <td id="dado5" >Dado 5</td>
+            <td id="5_1"><input type="text" readonly size=20></td>
+            <td id="5_2"><input type="text" readonly size=20></td>
+            <td id="5_3"><input type="text" readonly size=20></td>
+        </tr>
+        <tr>
+            <td id="dado6" >Dado 6</td>
+            <td id="6_1"><input type="text" readonly size=20></td>
+            <td id="6_2"><input type="text" readonly size=20></td>
+            <td id="6_3"><input type="text" readonly size=20></td>
+		</tr>
+	</table>
+</form>
+	<br>
+	<canvas id="oilChart" width="200" height="50"></canvas>
+	<footer>
+		<p>Universitaria de Colombia - Sistemas Dinámicos y Simulación </p>
+		<img src="uni.png" width="10%" height="10%">
+
+	</footer>
+</body>
+<script src="script.js"></script>
+
+</html>
